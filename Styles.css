@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #dc2626;
+    --primary-color: #b91c1c;
+    --black-color: #171717;
+    --button-color: #dc2626;
 }
 
 body {
@@ -33,6 +35,10 @@ body {
 }
 
 
+.container {
+    display: block;
+    font-size: large;
+}
 
 /** Footer **/
 
@@ -52,21 +58,30 @@ body {
     text-align: center;
 }
 
+button {
+    background-color: var(--button-color);
+    color: white;
+    font-size: large;
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+}
 
 
 textarea {
-    width: 600px;
-    height: 10vh;
+    box-sizing: border-box;
+    width: 50%;
+    height: 15vh;
     display: block;
-    margin: 2rem;
+    margin: 2rem auto;
     padding: 1rem;
 }
 
 #output {
-    border: 1px solid black;
-    height: 10vh;
-    width: 600px;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    padding: 1rem;
+    box-sizing: border-box;
+    border: 1px solid var(--black-color);
+    height: 15vh;
+    width: 50%;
+    margin: 2.5rem auto;
+    padding: 0.5rem;
 }
