@@ -16,11 +16,11 @@ body {
 
 .navigation {
     background-color: var(--primary-color);
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 .navigation .nav-img {
-    max-width: 60px;
+    max-width: 80px;
     display: block;
     margin: auto;
     padding-top: 5px;
@@ -66,10 +66,15 @@ button {
     background-color: var(--button-color);
     color: white;
     font-size: medium;
-    font-weight: medium;
     border: none;
-    margin-bottom: 1.5rem;
     padding: 1rem 2rem;
+}
+
+.btn-div {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
 }
 
 
@@ -78,7 +83,7 @@ textarea {
     width: 50%;
     height: 15vh;
     display: block;
-    margin: 1.75rem auto 1rem;
+    margin: 1.5rem auto 1rem;
     padding: 1rem;
 }
 
@@ -87,6 +92,6 @@ textarea {
     border: 1px solid var(--black-color);
     height: 15vh;
     width: 50%;
-    margin: 1rem auto 1.75rem;
+    margin: 1rem auto 1.5rem;
     padding: 0.5rem;
 }
